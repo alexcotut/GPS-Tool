@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/traceFragment">
+    <fragment
+        android:id="@+id/rawDataFragment"
+        android:name="ro.stellardynamics.gpstool.RawDataFragment"
+        android:label="fragment_raw_data"
+        tools:layout="@layout/fragment_raw_data" />
+    <fragment
+        android:id="@+id/traceFragment"
+        android:name="ro.stellardynamics.gpstool.TraceFragment"
+        android:label="trace_fragment"
+        tools:layout="@layout/fragment_trace">
+        <action
+            android:id="@+id/action_traceFragment_to_rawDataFragment"
+            app:destination="@id/rawDataFragment" />
+    </fragment>
+</navigation>
