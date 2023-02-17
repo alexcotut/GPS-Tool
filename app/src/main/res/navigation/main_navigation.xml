@@ -13,7 +13,7 @@
         android:id="@+id/traceFragment"
         android:name="ro.stellardynamics.gpstool.TraceFragment"
         android:label="trace_fragment"
-        tools:layout="@layout/fragment_trace">
+        tools:layout="@layout/fragment_trace_list">
         <action
             android:id="@+id/action_traceFragment_to_rawDataFragment"
             app:destination="@id/rawDataFragment" />

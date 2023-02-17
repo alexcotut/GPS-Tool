@@ -32,5 +32,11 @@
         <item name="colorOnCustomColor1Container">#ffdf98</item>
         <item name="harmonizeCustomColor1">false</item>
         <item name="colorPrimaryInverse">@color/md_theme_dark_inversePrimary</item>
+
+        <item name="android:statusBarColor">
+            @android:color/transparent
+        </item>
+
+        <item name="fontFamily">@font/figtree</item>
     </style>
 </resources>

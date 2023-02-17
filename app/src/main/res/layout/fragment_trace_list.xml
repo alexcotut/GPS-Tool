@@ -17,6 +17,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
+        android:id="@+id/btn_new_trace"
         android:text="@string/new_trace"
         app:icon="@drawable/ic_round_add_24" />
 

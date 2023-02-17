@@ -1,6 +1,11 @@
 <resources>
-    <string name="app_name">GPS Tools</string>
+    <string name="app_name">GPS Tool</string>
     <string name="raw">Raw</string>
-    <string name="trace">Trace</string>
+    <string name="traces">Traces</string>
     <string name="new_trace">New trace</string>
+    <string name="start">Start</string>
+    <string name="trace_name">Trace name</string>
+    <string name="cancel">Cancel</string>
+    <string name="options">Options</string>
+    <string name="trace_settings">Trace settings</string>
 </resources>

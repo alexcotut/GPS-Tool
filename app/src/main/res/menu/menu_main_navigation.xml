@@ -4,7 +4,7 @@
         android:id="@+id/traceFragment"
         android:enabled="true"
         android:icon="@drawable/ic_round_polyline_24"
-        android:title="@string/trace" />
+        android:title="@string/traces" />
     <item
         android:id="@+id/rawDataFragment"
         android:enabled="true"
