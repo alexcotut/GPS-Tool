@@ -37,6 +37,10 @@
             @android:color/transparent
         </item>
 
+        <item name="android:navigationBarColor">
+            @android:color/transparent
+        </item>
+
         <item name="fontFamily">@font/figtree</item>
     </style>
 </resources>

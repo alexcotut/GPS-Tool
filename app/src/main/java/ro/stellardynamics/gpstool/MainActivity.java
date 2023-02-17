@@ -23,4 +23,9 @@ public class MainActivity extends AppCompatActivity {
         assert navHostFragment != null;
         NavigationUI.setupWithNavController(binding.bottomNavigation, navHostFragment.getNavController());
     }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+    }
 }
